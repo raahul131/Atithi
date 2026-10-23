@@ -8,9 +8,11 @@
     "scheme": "atithi",
     "userInterfaceStyle": "light",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/expo.icon",
+      "bundleIdentifier": "com.raahul131.atithi"
     },
     "android": {
+      "package": "com.raahul131.atithi",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -39,6 +41,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "b525d750-6975-420f-8edf-70d1a53805f4"
+      }
     }
   }
 }
