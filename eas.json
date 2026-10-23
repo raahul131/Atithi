@@ -10,14 +10,12 @@
     },
     "preview": {
       "distribution": "internal",
-      "installCommand": "npm install",
       "android": {
         "buildType": "apk"
       }
     },
     "production": {
-      "autoIncrement": true,
-      "installCommand": "npm install"
+      "autoIncrement": true
     }
   },
   "submit": {
